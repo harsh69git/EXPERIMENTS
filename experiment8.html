@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLEX</title>
+</head>
+<body>
+<style>
+.container{
+justify-content: center;
+align-items: center;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 20px;
+padding: 20px;
+background-color: #f0f0f0;
+}
+.card {
+background-color: white;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.img{
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin-left: 20px;
+}
+.name, .course, .email, .admno {
+margin-top: 10px;
+display:inline;
+}
+
+</style>
+<h2><center>STUDENT PROFILE CARDS</center></h2>
+<div class="container">
+<div class="card">
+<div class="img">
+<img height="100" src="photo12.jpg" alt="Student 2">
+</div>
+<div class="name">
+<h3>HARSH RAJ GUPTA</h3>
+</div>
+<div class="course">
+<p>ARTIFICIAL intelligence</p>
+</div>
+<div class="email">
+<p class="email">HARSH.RAJ.GUPTA@example.com</p>
+</div>
+<div class="admno.">
+<p class="admno.">2025B15310029</p>
+</div>
+</div>
+
+</div>
+</body>
+</html>
